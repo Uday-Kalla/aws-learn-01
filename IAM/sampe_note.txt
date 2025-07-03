@@ -1,0 +1,16 @@
+Company: bank
+Req: AWS for them
+EC2 – compute
+DB
+Storage
+Kubernetes [authorization and authentication] – root access
+IAM – solves problem Authentication and authorization.
+Emply join 501 – and had 4 services. Which services need access, read access
+
+IAM why u have users, policies, groups,	 roles
+We can create aa user request join the company. (Authentication + Policies) if no policies user can access AWS but can’t access anything. 
+Groups: is need, in a company people leaves or join. -> user rise JIRA and we can add according to his group.
+
+Roles: Users
+Developer. DB server -> 
+
