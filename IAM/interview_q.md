@@ -19,3 +19,9 @@
 ### Q: What is an AWS managed policy?
 
 > A: An AWS managed policy is a predefined policy created and managed by AWS. These policies cover common use cases and provide predefined permissions for specific AWS services or actions. AWS managed policies are maintained and updated by AWS, ensuring they stay up to date with new AWS services and features. They can be attached to IAM users, groups, or roles in your AWS account.
+
+### Q: What is the difference between IAM Polices and IAM Roles?
+
+> A: In AWS IAM (Identity and Access Management), IAM roles define who can access resources, while IAM policies define what actions they can perform on those resources. Roles are like identities that can be assumed, and policies are like permission documents that define what actions are allowed or denied.
+
+### [Best Doc to understand IAM](https://cloudiofy.com/aws-iam-permissions-and-policy/)
