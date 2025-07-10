@@ -1,3 +1,7 @@
+![image](https://docs.aws.amazon.com/images/vpc/latest/userguide/images/how-it-works.png) 
+
+The above diagram shows an example VPC. The VPC has one subnet in each of the Availability Zones in the Region, EC2 instances in each subnet, and an internet gateway to allow communication between the resources in your VPC and the internet.
+
 ![image](https://github.com/iam-veeramalla/aws-devops-zero-to-hero/assets/43399466/89d8316e-7b70-4821-a6bf-67d1dcc4d2fb)
 
 This image shows a **basic architecture of a highly available web application in AWS** using **two Availability Zones** for better performance and failover. Here’s a simple explanation of each component:
@@ -35,6 +39,9 @@ This image shows a **basic architecture of a highly available web application in
 
 * Two **separate physical data centers** in the same region.
 * If one fails, the other keeps your app running.
+
+### 📥 S3 Gateway
+* Connects your VPC to Amazon S3, which is used for storing files like images, backups, etc.
 
 ### Summary:
 
