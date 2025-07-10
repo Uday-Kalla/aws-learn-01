@@ -2,6 +2,18 @@
 
 The above diagram shows an example VPC. The VPC has one subnet in each of the Availability Zones in the Region, EC2 instances in each subnet, and an internet gateway to allow communication between the resources in your VPC and the internet.
 
+
+### Q: Why Is an Internet Gateway Important?
+* In AWS: An Internet Gateway (IGW) is what enables public subnets to connect to the internet.
+  * The NAT Gateways, Application Load Balancer, and even access to S3 (without a gateway endpoint) require an IGW to send/receive traffic from the internet.
+
+🔄 Where Would the IGW Fit in This Diagram?
+    * It should be connected to the VPC, and attached to the Public Subnets.
+    * All internet-bound traffic (like from the ALB or NAT Gateway) would pass through the IGW.
+
+> - Application Load Balancer (ALB) ↔ IGW ↔ Internet
+> - NAT Gateway ↔ IGW ↔ Internet
+
 ![image](https://github.com/iam-veeramalla/aws-devops-zero-to-hero/assets/43399466/89d8316e-7b70-4821-a6bf-67d1dcc4d2fb)
 
 This image shows a **basic architecture of a highly available web application in AWS** using **two Availability Zones** for better performance and failover. Here’s a simple explanation of each component:
