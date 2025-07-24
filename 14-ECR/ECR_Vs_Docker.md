@@ -63,3 +63,4 @@ Here’s a simple, **human-understanding explanation** of the **difference betwe
 * **AWS ECR** = **Your company’s secure garage**, behind a security gate, with AWS cameras, badges, and access control.
 
 ---
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/055adfa0-1ab1-4df8-bdb8-83a12d666538" />
